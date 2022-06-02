@@ -32,8 +32,6 @@ const PokemonPage: NextPage<Props> = ({ pokemon }) => {
 
 
 
-
-
   return (
     <Layout title={pokemon.name}>
       <Grid.Container css={{ marginTop: '5px' }} gap={2}>
